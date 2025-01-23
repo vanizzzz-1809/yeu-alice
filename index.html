@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngày Yêu Em</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #ffe4e1;
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        p {
+            font-size: 20px;
+            color: #333;
+        }
+        .counter {
+            font-size: 40px;
+            color: #ff4500;
+        }
+    </style>
+    <script>
+        function calculateDays() {
+            const startDate = new Date("2025-01-19");
+            const today = new Date();
+            const timeDifference = today - startDate;
+            const daysCount = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+            document.getElementById("days").textContent = daysCount;
+        }
+
+        window.onload = calculateDays;
+    </script>
+</head>
+<body>
+    <h1> <strong> Yêu Alice</h1> </strong>
+    <p>Alice à, tớ đã thích cậu từ rất lâu rồi...</p>
+    <p>Và hôm nay, tớ muốn nói rằng:</p>
+    <div class="counter">
+        Tớ đã yêu cậu được <strong id="days"></strong> ngày rồi! ❤️
+    </div>
+    <p>Mỗi ngày trôi qua, tớ càng thích cậu nhiều hơn!</p>
+    <img src="https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-6/469886985_1097718498759793_2285349720632139464_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeG5gInbms0ctx8gL-DxtXV_1wU9HTRKRbfXBT0dNEpFt4I5rcgA9C-zaIUVxd5ATNn5aNF2taM1eEj0KAuFBkeT&_nc_ohc=X6lQhjAk2C4Q7kNvgG3U27F&_nc_oc=Adi3YPuXs8SM_c0DIgGE8EZT9Fn2OswHlwluGcGj4VQS_joaXTj72KzjumOXRZzqkiE&_nc_zt=23&_nc_ht=scontent.fhan4-3.fna&_nc_gid=A2uh5cdPsf6cTLEmcKDHsdZ&oh=00_AYCD-lw1um7LRPiYzMTApka7Ou4khatubTh3JFe4bbV-cQ&oe=6797CBE1" alt="Image" style="width: 400px; height: auto;">
+    <br>
+    <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/471366271_1106556101209366_2098088602646061978_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFLY_NBjIsePtLXknEWWHjN4kJ1G_4g5qPiQnUb_iDmo9TCszj3aqrxgkTifiGBk0GciHKmKhiS3H5YyudU4H_h&_nc_ohc=4Bw3ZJxQyGYQ7kNvgG6eBsr&_nc_oc=AdjyNAIOhMSa0yRITYtKzGB-oxVuE579FtkU-ovZAczP0YC_yfivMAWR6G7CciPWgVU&_nc_zt=23&_nc_ht=scontent.fhan3-3.fna&_nc_gid=ALwSoJVJPGg2rqjHyGY9UFt&oh=00_AYDiwX8_s8MCZztQtIgCbPdphUGWUgaosL0uzZR0XzcnQQ&oe=6797CC81" alt="Image" style="width: 400px; height: auto;">
+    <br>
+    <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/457279370_1026741855857458_5406764583083127624_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeH9X-PlcwpGxHX5EIvja3MATDpLy9tQRktMOkvL21BGS0xoJjT3ZJ-dz_Ghi4uLbUu1nyXtK0SBn-r5p16-ns_t&_nc_ohc=_UkFyN7XcREQ7kNvgHx0o6-&_nc_oc=AdglpEzMEaDKh-9qEU5FnJeUEzdZbm4pYi_MHhH6gC3_ry6UzvwAKNNL1ajlB2RpsBs&_nc_zt=23&_nc_ht=scontent.fhan3-3.fna&_nc_gid=Ae1KKucMUJ3YLDwbiLO_28W&oh=00_AYBgAEgqyIzSMO9iSYlMi6awCEWre_jn2QYqzlGMjEGcYg&oe=6797CD7B" alt="Image" style="width: 400px; height: auto;">
+</body>
+</html>
